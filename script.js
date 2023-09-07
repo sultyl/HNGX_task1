@@ -9,4 +9,4 @@ function updateDateTime() {
 }
 
 updateDateTime();
-setInterval(updateDateTime, 1);
+setInterval(updateDateTime, 1000);
