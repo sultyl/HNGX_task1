@@ -31,13 +31,15 @@ body {
     display: block;
     font-size: 16px;
     margin-top: 20px;
-    border: 2px solid red;
+    border: 1px solid #70757A;
+    border-radius: 10px;
+    padding: 10px;
     max-width: 200px;
     text-decoration: none;
-    color: #007BFF;
+    color: #232323;
 }
 
 [data-testid="githubURL"]:hover {
-    text-decoration: underline;
-    color: #0056b3;
+    color: #eee;
+    background-color: #70757A;
 }
